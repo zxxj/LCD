@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "run:client": "pnpm --filter @lowcode/client dev",
-    "run:server": "pnpm --filter @lowcode/server start:dev"
+    "run:server": "pnpm --filter @lowcode/server start:dev",
+    "run:share": "pnpm --filter @lowcode/share build"
   },
   "keywords": [],
   "author": "",

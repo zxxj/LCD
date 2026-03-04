@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "target": "ES2021",
+    "module": "ESNext",
+    "jsx": "react",
+    "strict": true,
+    "skipLibCheck": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src", "build.config.ts"]
+}
