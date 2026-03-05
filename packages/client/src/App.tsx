@@ -1,5 +1,6 @@
+import { test } from '@lowcode/share';
 function App() {
-  return <>client</>;
+  return <> {test()}</>;
 }
 
 export default App;

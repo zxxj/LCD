@@ -32,6 +32,10 @@ importers:
         version: 5.9.3
 
   packages/client:
+    dependencies:
+      '@lowcode/share':
+        specifier: workspace:*
+        version: link:../share
     devDependencies:
       '@eslint/js':
         specifier: 9.39.1
@@ -60,6 +64,9 @@ importers:
 
   packages/server:
     dependencies:
+      '@lowcode/share':
+        specifier: workspace:*
+        version: link:../share
       '@nestjs/common':
         specifier: ^11.0.1
         version: 11.1.14(reflect-metadata@0.2.2)(rxjs@7.8.2)

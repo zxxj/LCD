@@ -8,5 +8,5 @@ export default defineBuildConfig({
   rollup: {
     emitCJS: true, // 打包导出cjs模块,方便其它子项目使用.
   },
-  externals: ['react', 'react-dom'], // 打包时排除依赖,因为公共依赖已经在主项目中安装了.
+  externals: ['react', 'react-dom'], // 打包时排除依赖,因为这些依赖已经在公共依赖中安装了.
 });
